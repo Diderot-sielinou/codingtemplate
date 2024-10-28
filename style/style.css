@@ -1,0 +1,108 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+/* ---------- started style mobile header ------- */
+
+body {
+  height: 600vh;
+}
+
+.menu {
+  z-index: 1;
+  width: 100%;
+  height: 500px;
+  background-image: url(../images/banner-bg.jpg);
+  box-shadow: 1px 1px 25px rgba(26, 25, 25, 0.7);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.memu-container {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+  box-shadow: 1px 1px 25px rgba(26, 25, 25, 0.7);
+  display: flex;
+  flex-flow: column;
+  gap: 20px;
+  align-items: center;
+  margin: 0 auto;
+  display: none;
+}
+
+.logo {
+  width: 90px;
+  height: 90px;
+  background-color: transparent;
+}
+
+.logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.memu-list a {
+  display: block;
+  font-size: 1.5rem;
+  padding: 10px 20px;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.list-item8 {
+  border: 1px solid white;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+
+.memu-list li:hover {
+  background-color: #4c8dff;
+  border-radius: 15px;
+}
+
+.memu-list li a:active {
+  color: #4c8dff;
+}
+
+.header-text {
+  width: 80%;
+  height: 300px;
+  text-align: start;
+  margin: 0px auto;
+}
+
+.header-text h1 {
+  padding-top: 10px;
+  font-size: 1.3rem;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.header-text p {
+  padding-bottom: 10px;
+  color: #f6f6f6;
+  font-size: 17px;
+}
+
+.header-text button {
+  padding: 10px 20px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1rem;
+  border: 1px solid #fff;
+  background: transparent;
+  border-radius: 15px;
+  width: 80%;
+  height: 60px;
+  max-width: 190px;
+  max-height: 170px;
+}
