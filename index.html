@@ -3,10 +3,56 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
   <link rel="stylesheet" href="style/style.css">
   <title>behance template</title>
 </head>
 <body>
-  
+  <div class="mobile-menu">
+    <span class="material-symbols-outlined" onclick="togler()" id="togler">
+      menu
+    </span>
+  </div>  
+  <header class="menu">
+    <div class="memu-container">
+      <div class="logo">
+        <img src="images/logo.jpeg" alt="logo">
+      </div>
+      <ul class="memu-list">
+        <li class="list-item"><a href="#">home</a></li>
+        <li class="list-item"><a href="#">bog</a></li>
+        <li class="list-item"><a href="#">about</a></li>
+        <li class="list-item"><a href="#">portfolio</a></li>
+        <li class="list-item"><a href="#">pricing</a></li>
+        <li class="list-item"><a href="#">services</a></li>
+        <li class="list-item"><a href="#">contact</a></li>
+        <li class="list-item8"><a href="#">get started</a></li>
+      </ul>
+    </div>
+    <div class="header-text">
+      <h1>animation . we make animation better.</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Dolorum voluptatibus enim consequuntur distinctio magni!</p>
+        <button>get started</button>
+    </div>
+
+  </header>
+
+  <script>
+    function togler() {
+      const icon = document.querySelector("#togler");
+      const menu = document.querySelector(".memu-container");
+      if (icon.innerHTML == "menu") {
+        icon.innerHTML = "close";
+        menu.style.display = "flex";
+      } else {
+        icon.innerHTML = "menu";
+        menu.style.display = "none";
+      }
+    }
+  </script>
 </body>
 </html>
