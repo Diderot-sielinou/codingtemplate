@@ -34,7 +34,7 @@ body {
   align-items: center;
   margin: 0 auto;
   display: none;
-  background-color: #00000066;
+  background-color: #0066;
 }
 
 .logo {
@@ -119,7 +119,6 @@ body {
 
 .about {
   width: 100%;
-  height: auto;
   background-color: #fff;
   height: 630px;
 }
@@ -136,17 +135,7 @@ body {
 .about-text {
   width: 100%;
   height: auto;
-  max-width: 450px;
   padding: 20px 0;
-}
-
-.about-text {
-  width: 100%;
-  height: auto;
-  max-width: 450px;
-}
-
-.about-text {
   display: flex;
   align-items: start;
   flex-flow: column;
@@ -195,7 +184,7 @@ body {
   height: auto;
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
+  flex-flow: row;
   gap: 10px;
   padding: 10px 20px;
   justify-content: center;
@@ -232,9 +221,6 @@ body {
 
 .clent-text h1 {
   padding: 0 0 5px;
-}
-
-.clent-text p {
 }
 
 .clent-text button {
@@ -429,8 +415,6 @@ body {
   text-align: start;
 }
 
-
-
 .easy {
   width: 100%;
   background-color: #f6f6f6;
@@ -517,19 +501,6 @@ body {
   position: relative;
 }
 
-.block1-texte {
-  position: absolute;
-  text-align: center;
-  top: 70px;
-  color: #fff;
-
-}
-
-.block1-texte h1 {
-  font-size: 1.3rem;
-  padding: 12px 0;
-}
-
 .block1-texte a {
   display: block;
   text-align: center;
@@ -541,6 +512,19 @@ body {
   border-radius: 10px;
   color: #fff;
 }
+
+.block1-texte {
+  position: absolute;
+  text-align: center;
+  top: 70px;
+  color: #fff;
+}
+
+.block1-texte h1 {
+  font-size: 1.3rem;
+  padding: 12px 0;
+}
+
 
 /* --------------textimonial ---------------- */
 
@@ -557,7 +541,7 @@ body {
   text-align: center;
 }
 
-.testimonial h1{
+.testimonial h1 {
   padding: 16px 0;
   font-size: 1.3rem;
   color: #000;
@@ -606,7 +590,6 @@ body {
   border-radius: 50%;
 }
 
-
 /* ---------------footer .--------------------- */
 
 footer {
@@ -648,27 +631,28 @@ footer {
 
 .reseaux {
   text-align: start;
-  padding: 0 5px 0;
+  padding: 0 5px;
 }
 
-.list1 , .list2 {
+.list1 li ,
+.list2 li {
+  padding: 5px 10px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.list1:first-child {
+  font-size: 1.3rem;
+}
+
+.list1 , 
+.list2 {
   display: flex;
   flex-direction: column;
   gap: 10px;
   align-items: center;
 }
 
-.list1 li ,.list2 li {
-  padding: 5px 10px;
-  font-size: 1rem;
-  font-weight: bold;
-
-}
-
-.list1:first {
-  font-size: 1.3rem;
-}
-
-.list2:first {
+.list2:first-child {
   font-size: 1.3rem;
 }
