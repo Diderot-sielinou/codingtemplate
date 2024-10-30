@@ -18,7 +18,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
-  background-color: rgba(0, 0, 0, 30%);
+  background-color: #0000004d;
 }
 
 .memu-container {
@@ -178,7 +178,6 @@
   font-weight: 700;
 }
 
-
 .about-img {
   width: 100%;
   height: auto;
@@ -253,7 +252,6 @@
   align-items: center;
   padding: 1px;
   margin: 0 auto;
-
 }
 
 .client-statis {
@@ -653,13 +651,11 @@ footer {
 }
 
 .icon {
-  width: 68px;
-    /* height: 69px; */
+  width: 32px;
 }
 
-.icon a {
-  padding: 7px 0px;
-  /* align-items: center; */
+.link-icons {
+  padding: 7px 0;
   display: flex;
   align-items: center;
 }
@@ -684,7 +680,7 @@ footer {
   align-items: center;
 }
 
-.list1 li {
+.foot-item {
   padding: 8px 5px;
   font-size: 1.1rem;
   font-weight: bold;
@@ -697,7 +693,7 @@ footer {
   align-items: center;
 }
 
-.list2 li {
+.foot-item {
   padding: 8px 5px;
   font-size: 1.1rem;
   font-weight: bold;
