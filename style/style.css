@@ -278,7 +278,7 @@ body {
   width: 100%;
 }
 
-.product-text2 a {
+.link-p {
   padding: 10px 20px;
   border: 2px solid #fff;
   margin: 10px;
@@ -324,7 +324,7 @@ body {
   margin: 10px 0;
 }
 
-.container-text a {
+.link-produc {
   display: block;
   width: 50%;
   height: 43px;
@@ -477,7 +477,7 @@ body {
   margin: 0 0 13px;
 }
 
-.text a {
+.tect {
   padding: 10px 20px;
   border: 2px solid;
   border-radius: 10px;
@@ -505,7 +505,7 @@ body {
   color: #fff;
 }
 
-.block1-texte a {
+.block1-a {
   display: block;
   text-align: center;
   margin: 17px auto;
