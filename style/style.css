@@ -634,6 +634,14 @@ footer {
   padding: 0 5px;
 }
 
+.list1,
+.list2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
 .list1 li ,
 .list2 li {
   padding: 5px 10px;
@@ -643,14 +651,6 @@ footer {
 
 .list1:first-child {
   font-size: 1.3rem;
-}
-
-.list1 , 
-.list2 {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  align-items: center;
 }
 
 .list2:first-child {
