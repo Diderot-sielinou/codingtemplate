@@ -482,7 +482,7 @@ body {
   border: 2px solid;
   border-radius: 10px;
   display: block;
-  width: 120px;
+  width: 126px;
   text-align: center;
   margin: 10px 0;
 }
@@ -496,7 +496,6 @@ body {
   background-size: cover;
   position: relative;
 }
-
 
 .block1-texte {
   position: absolute;
