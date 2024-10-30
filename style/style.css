@@ -680,12 +680,6 @@ footer {
   align-items: center;
 }
 
-.foot-item {
-  padding: 8px 5px;
-  font-size: 1.1rem;
-  font-weight: bold;
-}
-
 .list2 {
   display: flex;
   gap: 7px;
