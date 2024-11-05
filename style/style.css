@@ -14,13 +14,7 @@
   z-index: 1;
   width: 100%;
   height: 500px;
-  background-image: 
-    linear-gradient(
-    to right,
-    rgba(0, 0, 0, 70%),
-    rgba(0, 0, 0, 50%)
-    ),
-    url("../images/banner-bg.jpg");
+  background-image: linear-gradient(to right,rgba(0, 0, 0, 70%),rgba(0, 0, 0, 50%)),url("../images/banner-bg.jpg");
   box-shadow: 1px 1px 25px #1a1919b3;
   background-size: cover;
   background-repeat: no-repeat;
@@ -888,7 +882,6 @@ footer {
     align-items: start;
     gap: 10px;
     color: #000;
-    text-align: start;
     justify-content: start;
   }
 
@@ -974,13 +967,7 @@ footer {
   }
 
   .client {
-    background-image: 
-    linear-gradient(
-    to right,
-    #000000b3,
-    #00000080
-    ),
-    url("../images/art-design-4.jpg");
+    background-image: linear-gradient(to right,#000000b3,#00000080),url("../images/art-design-4.jpg");
     background-size: cover;
     text-align: center;
   }
